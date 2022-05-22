@@ -21,6 +21,7 @@ services:
       - ../:/var/www/html
       - ./php/log/:/var/log/php/
 
+
   phpmyadmin:
     image: phpmyadmin/phpmyadmin:latest
     container_name: codelike_web_phpmyadmin
